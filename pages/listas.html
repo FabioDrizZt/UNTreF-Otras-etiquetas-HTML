@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listas en HTML</title>
+  </head>
+  <body>
+    <h1>Listas en HTML</h1>
+    <a href="../index.html">Volver a la página principal</a>
+    <h2>Indice</h2>
+    <ul>
+      <li><a href="#ol">Listas Ordenadas</a></li>
+      <li><a href="#ul">Listas Desordenadas</a></li>
+      <li><a href="#la">Listas Anidadas</a></li>
+      <li><a href="#dl">Lista de Términos</a></li>
+    </ul>
+    <section id="ol">
+      <h2>Listas Ordenadas</h2>
+      <ol type="i" start="5" reversed>
+        <li>Elemento N° 01</li>
+        <li>Elemento N° 02</li>
+        <li>Elemento N° 03</li>
+        <li>Elemento N° 04</li>
+        <li>Elemento N° 05</li>
+      </ol>
+    </section>
+    <section id="ul">
+      <h2>Listas Desordenadas</h2>
+      <ul type="none">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </section>
+    <section id="la">
+      <h2>Listras Anidadas</h2>
+      <ul type="square">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>
+          Item 3:
+          <ol type="a">
+            <li>
+              Subitem 1:
+              <ol>
+                <li>Subitem 1.1</li>
+                <li>Subitem 1.2</li>
+                <li>Subitem 1.3</li>
+              </ol>
+            </li>
+            <li><del>Subitem 2</del></li>
+            <li>Subitem 3</li>
+          </ol>
+        </li>
+      </ul>
+    </section>
+    <section id="dl">
+      <h2>Lista de Terminos</h2>
+      <dl>
+        <dt>
+          <ins><strong>HTML:</strong></ins>
+        </dt>
+        <dd>
+          Lenguaje de
+          <q>marcado</q>
+          de hipertexto
+        </dd>
+        <dt>
+          <ins><strong>CSS:</strong></ins>
+        </dt>
+        <dd>
+          Lenguaje de
+          <em>estilos</em>
+          en cascada
+        </dd>
+        <dt>
+          <ins><strong>JavaScript:</strong></ins>
+        </dt>
+        <dd>
+          Lenguaje de
+          <cite>programación</cite>
+          para la web
+        </dd>
+      </dl>
+    </section>
+  </body>
+</html>
